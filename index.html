@@ -2,18 +2,18 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style.css"  type="text/css">
   </head>
   <body>
 
     <div class="container">
-        <h1 id="title" class="text-center">survey-Form</h1>
+        <h1 id="title" class="text-center"><em>survey-Form</em></h1> <br>
         <p id="description" class="description text-center">
-        Use stories survey form
+        <em>Use stories survey form</em>
         </p>
-  
-      <form id="survey-form">
-        <div class="form-group">
+        <br>
+        <form id="survey-form">
+        <div class="form-group"> <br>
           <label id="name-label" for="name">Name</label>
           <input
             type="text"
@@ -24,6 +24,7 @@
    
             required
           />
+          
         </div>
         <div class="form-group">
           <label id="email-label" for="email">Email</label>
@@ -35,6 +36,7 @@
             placeholder="Enter your Email"
             required
           />
+       
         </div>
         <div class="form-group">
           <label id="number-label" for="number"
@@ -49,20 +51,21 @@
             class="form-control"
             placeholder="Age"
           />
+      
         </div>
         <div class="form-group">
          
 
         <div class="form-group">
-          <p>Are you ready further to contact ? </p>
+          <p><h5>Are you ready further to contact ?</h5> </p><br>
           <label>
-            <input
+         <input
               name="user-recommend"
               value="yes"
               type="radio"
               class="input-radio"
               checked
-            />yes</label
+            />Yes</label
           >
          
             <input
@@ -75,7 +78,7 @@
         </div>
 
         <div class="form-group">
-          <p>Are you comfortabel in investing in real state platform without first investigating properly? </p>
+          <p><h5>Are you comfortabel in investing in real state platform without first investigating properly?</h5> </p> <br>
           <select id="most-like" name="mostLike" class="form-control" required>
             <option disabled selected value>Select an option</option>
             <option  value="Yes">Yes</option>
@@ -87,18 +90,19 @@
 
         <div class="form-group">
           <p>
-           your ready to invest in?
+          <h5>your ready to invest in?</h5> 
             <span class="clue">(Check all that apply)</span>
+            
           </p>
-
-          <label
-            ><input
+<br>
+          <label></label>
+          <input
               name="prefer"
               value="Real Estate"
               type="checkbox"
               class="input-checkbox"
-            />Real Estate</label
-          >
+            />Real Estate</label>
+         
           <label>
             <input
               name="prefer"
@@ -106,38 +110,43 @@
               type="checkbox"
               class="input-checkbox"
             />Mututal funds</label
-          >
+        >
           <label
-            ><input
+          ><input
               name="prefer"
               value="Crypto Currency"
               type="checkbox"
               class="input-checkbox"
             />Crypto Currency</label
           >
+          
          
           <label
-            ><input
+          ><input
               name="prefer"
               value="Stocks and Bonds"
               type="checkbox"
               class="input-checkbox"
-            />Stocks and Bonds</label
-          >
-          <div class="form-group">
-            <p>Suggestion to build trusted platform</p>
+            />Stocks and Bonds</label>
+         
+           <div class="form-group">
+            <br>
+            <p>
+                <h5>Suggestion to build trusted platform</h5></p>
             <textarea
               id="comments"
               class="input-textarea"
               name="comment"
               placeholder="Enter your suggestions here..."
+              cols="30"
+              rows="5"
             ></textarea>
-          </div>
-        <div class="form-group">
-          <button type="submit" id="submit" class="submit-button">
+           </div>
+           <div class="form-group">
+           <button type="submit" id="Submit" class="submit-button">
             Submit
           </button>
-        </div>
+         </div>
       </form>
     </div>
   </body>
