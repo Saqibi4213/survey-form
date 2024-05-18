@@ -1,146 +1,111 @@
 
 <!DOCTYPE html>
-<html>
+<html  lang="en">
   <head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
+    <title>My survey form</title>
   </head>
   <body>
+    <header>
+      <h1>Survey Form</h1>
+      <section>
+        <div>
+          <div>
+            <p>Let us know how we improve our resturant </p>
+          </div>
+          <form>
+            <div>
+              <div>
+              <label>Name</label>
 
-    <div class="container">
-        <h1 id="title" class="text-center">survey-Form</h1>
-        <p id="description" class="description text-center">
-        Use stories survey form
-        </p>
-  
-      <form id="survey-form">
-        <div class="form-group">
-          <label id="name-label" for="name">Name</label>
-          <input
-            type="text"
-            name="name"
-            id="name"
-            class="form-control"
-            placeholder="Enter your name"
-   
-            required
-          />
+            </div>
+            <div>
+              <input type="text" name="Name">
+            </div>
+          </div>
+          <div>
+            <div>
+            <label>Email</label>
+          </div>
+          <div>
+            <input type="email" name="Email">
+          </div>
         </div>
-        <div class="form-group">
-          <label id="email-label" for="email">Email</label>
-          <input
-            type="email"
-            name="email"
-            id="email"
-            class="form-control"
-            placeholder="Enter your Email"
-            required
-          />
-        </div>
-        <div class="form-group">
-          <label id="number-label" for="number"
-            >Age<span class="clue">(optional)</span></label
-          >
-          <input
-            type="number"
-            name="age"
-            id="number"
-            min="18"
-            max="90"
-            class="form-control"
-            placeholder="Age"
-          />
-        </div>
-        <div class="form-group">
-         
+        <div>
+          <div>
+          <label>Age</label>
 
-        <div class="form-group">
-          <p>Are you ready further to contact ? </p>
-          <label>
-            <input
-              name="user-recommend"
-              value="yes"
-              type="radio"
-              class="input-radio"
-              checked
-            />yes</label
-          >
-         
-            <input
-              name="user-recommend"
-              value="No"
-              type="radio"
-              class="input-radio"
-            />No</label
-          >
         </div>
-
-        <div class="form-group">
-          <p>Are you comfortabel in investing in real state platform without first investigating properly? </p>
-          <select id="most-like" name="mostLike" class="form-control" required>
-            <option disabled selected value>Select an option</option>
-            <option  value="Yes">Yes</option>
-            <option value="No">No</option>
-            
-           
+        <div>
+          <input type="number" name="Age">
+        </div>
+      </div>
+      <div>
+        <div>
+          <label>Gender</label>
+        </div>
+        <div>
+          <select>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Preffer to not say</option>
           </select>
         </div>
-
-        <div class="form-group">
-          <p>
-           your ready to invest in?
-            <span class="clue">(Check all that apply)</span>
-          </p>
-
-          <label
-            ><input
-              name="prefer"
-              value="Real Estate"
-              type="checkbox"
-              class="input-checkbox"
-            />Real Estate</label
-          >
-          <label>
-            <input
-              name="prefer"
-              value="Mututal Funds"
-              type="checkbox"
-              class="input-checkbox"
-            />Mututal funds</label
-          >
-          <label
-            ><input
-              name="prefer"
-              value="Crypto Currency"
-              type="checkbox"
-              class="input-checkbox"
-            />Crypto Currency</label
-          >
-         
-          <label
-            ><input
-              name="prefer"
-              value="Stocks and Bonds"
-              type="checkbox"
-              class="input-checkbox"
-            />Stocks and Bonds</label
-          >
-          <div class="form-group">
-            <p>Suggestion to build trusted platform</p>
-            <textarea
-              id="comments"
-              class="input-textarea"
-              name="comment"
-              placeholder="Enter your suggestions here..."
-            ></textarea>
-          </div>
-        <div class="form-group">
-          <button type="submit" id="submit" class="submit-button">
-            Submit
-          </button>
+      </div>
+      <div>
+        <div>
+          <label>How likely is that you would recommand caftaria resturant to friends?</label>
         </div>
-      </form>
-    </div>
+        <div>
+          <input type="radio" name="Yes" value="Yes"><label>Yes</label>
+          <input type="radio" name="No" value="no"><label>No</label>
+          <input type="radio" name="Maybe" value="Maybe"><label>Maybe</label>
+        </div>
+      </div>
+      <div>
+        <div>
+          <label>
+            What do you like the most in Cafteria
+          </label>
+        </div>
+        <div>
+          <select>
+            <option>Select an option</option>
+            <option>Pizaa</option>
+            <option>Qabuli-palaw</option>
+            <option>Kebab</option>
+            <option>Manto-Aashak</option>
+          </select>
+        </div>
+      </div>
+      <div>
+        <div>
+          <label>
+            Things that should be improved in the feature? (check all that apply)
+          </label>
+        </div>
+        <div>
+          <input type="checkbox" name="food taste" value="food taste" ><label>Food taste</label>
+          <input type="checkbox" name="kitchen cleaning" value="kitchen cleaning" ><label>kitchen cleaning</label>
+          <input type="checkbox" name="chief improvment" value="chief" ><label>chief</label>
+        </div>
+        <div class="form-control">
+          <label>Any suggestions?</label>
+          <textarea name="comment" placeholder="enter comments here...">
+
+          </textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </div>
+    
+        
+        </div>
+      </div>
+          </form>
+        </div>
+      </section>
+    </header>
   </body>
-</html>
-
-
