@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My survey form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="title">
+      <h1>Survey Form</h1>
+    </header>
+    <section>
+      <div class="container">
+        <div>
+          <p><h4><em>Let us know how we improve our restaurant</em></h4></p>
+        </div>
+        <form id="">
+          <div class="row-tab">
+            <div class="label-tab">
+              <label>Name</label>
+            </div>
+            <div>
+              <input type="text" name="Name" id="na" placeholder="enter your name">
+            </div>
+          </div>
+          <div class="input-tab">
+            <div>
+              <label>Email</label>
+            </div>
+            <div>
+              <input type="email" name="Email" placeholder="enter your email">
+            </div>
+          </div>
+          <div class="row-tab">
+            <div>
+              <label>Age</label>
+            </div>
+            <div>
+              <input type="number" name="Age" placeholder="Age">
+            </div>
+          </div>
+          <div class="row-tab">
+            <div>
+              <label>Gender</label>
+            </div>
+            <div class="select-tab">
+              <select id="select-box">
+                <option>Male</option>
+                <option>Female</option>
+                <option>Prefer to not say</option>
+              </select>
+            </div>
+          </div>
+          <div class="row-tab">
+            <div>
+              <label>How likely is that you would recommend Caftaria restaurant to friends?</label>
+            </div>
+            <div class="input-tab">
+              <div><input type="radio" name="recommendation" value="Yes"><label>Yes</label></div>
+              <div><input type="radio" name="recommendation" value="No"><label>No</label></div>
+              <div><input type="radio" name="recommendation" value="Maybe"><label>Maybe</label></div>
+            </div>
+          </div>
+          <div class="row-tab">
+            <div>
+              <label>What do you like the most in Cafteria</label>
+            </div>
+            <div>
+              <select>
+                <option>Select an option</option>
+                <option>Pizza</option>
+                <option>Qabuli-palaw</option>
+                <option>Kebab</option>
+                <option>Manto-Aashak</option>
+              </select>
+            </div>
+          </div>
+          <div class="row-tab">
+            <div>
+              <label>Things that should be improved in the future? (check all that apply)</label>
+            </div>
+            <div>
+              <input type="checkbox" name="improvements[]" value="food taste"><label>Food taste</label>
+              <input type="checkbox" name="improvements[]" value="kitchen cleaning"><label>Kitchen cleaning</label>
+              <input type="checkbox" name="improvements[]" value="chef"><label>Chef</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <div>
+              <label>Any suggestions?</label>
+            </div>
+            <textarea name="comment" placeholder="enter comments here..."></textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
+
