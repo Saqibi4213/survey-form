@@ -1,64 +1,75 @@
+/* General Styles */
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  margin: 0;
-  padding: 0;
-  background-color: rgb(5, 173, 162);
-  color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: #05ada2;
+    color: #333;
   }
   
-  #title {
-  background-color: rgb(5, 173, 162);
-  color: black;
-  text-align: center;
-  width: 100%;
-  margin: auto;
+  /* Title and Description */
+  .title {
+    background-color: #05ada2;
+    color: #333;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
   }
   
-  #description {
-  text-align: center;
+  .description {
+    text-align: center;
   }
   
-  #text {
-  text-align: center;
-  margin-top: 10px;
-  }
-  
+  /* Main Content */
   .container {
-  width: 80%;
-  margin: auto;
-  background-color: rgb(204, 228, 228);
-  color: black;
-  padding: 15px;
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #cce4e4;
+    color: #333;
+    padding: 20px;
   }
   
-  #survey-form {
-  text-align: center;
+  /* Form Styles */
+  .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
   }
   
-  .row-tab {
-  display: block;
-  padding-bottom: 5%;
+  .form-group label {
+    width: 40%;
+    text-align: right;
+    padding-right: 10px;
   }
   
-  .label-tab {
-  display: inline-block;
-  width: 44%;
-  vertical-align: top;
+  .form-group input,
+  .form-group select {
+    width: 60%;
+    padding: 5px;
   }
   
-  .input-tab {
-  display: inline-block;
-  width: 54%;
-  text-align: left;
-  }
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
   
-  .select-tab {
-  display: inline-block;
-  width: 54%;
-  text-align: left;
-  }
+    .form-group {
+      flex-direction: column;
+      align-items: flex-start;
+    }
   
-  #select-box {
-  padding: 5px 0;
+    .form-group label {
+      width: 100%;
+      text-align: left;
+      padding-right: 0;
+      margin-bottom: 5px;
+    }
+  
+    .form-group input,
+    .form-group select {
+      width: 100%;
+    }
   }
