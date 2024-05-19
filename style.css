@@ -1,4 +1,4 @@
- body {
+body {
   font-family: Arial;
   font-size: 16px;
   margin: 0;
@@ -7,7 +7,7 @@
   color: black;
 }
   
- #title {
+#title {
   background-color:rgb(5,173,162);
   color: black;
   text-align: center;
@@ -15,16 +15,16 @@
   margin: auto;
 }
     
- #description {
+#description {
   text-align: center;
 }
     
- #text {
+#text {
   text-align: center;
   margin-top: 10px;
 }
     
- .container {
+.container {
   width: 80%;
   margin: auto;
   background-color: rgb(204, 228, 228);
@@ -32,33 +32,33 @@
   padding: 15px;
 }
     
- #survey-form {
+#survey-form {
   text-align: center;
 }
     
- .row-tab {
+.row-tab {
   display: block;
   padding-bottom: 5%;
 }
     
- .label-tab {
+.label-tab {
   display: inline-block;
   width: 44%;
   vertical-align: top;
 }
     
- .input-tab {
+.input-tab {
   display: inline-block;
   width: 54%;
   text-align: left;
 }
     
- .select-tab {
+.select-tab {
   display: inline-block;
   width: 54%;
   text-align: left;
 }
     
- #select-box {
+#select-box {
   padding: 5px 0;
 }
