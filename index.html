@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey-Form</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header id="title">
+      <h1><em>Survey Form</em></h1>
+    </header>
+    <section>
+      <div class="container">
+        <div>
+          <p><h4><em>Let us know how we can improve our restaurant</em></h4></p>
+        </div>
+        <form id="form-control">
+          <div class="row-tab">
+            <div class="label-tab">
+            <div>
+            <label for="name">Name</label> 
+            </div>
+            </div>
+            <div>
+              <div>
+                <input type="text" name="Name" id="name" placeholder="Enter your name">
+              </div>
+            </div>
+          </div>
+          <div class="input-tab">
+            <div>
+              <label for="email">Email</label>
+            </div>
+            <div>
+              <input type="email" name="Email" id="email" placeholder="Enter your email">
+            </div>
+          </div>
+          <div class="input-tab">
+            <div>
+              <label for="age">Age</label>
+            </div>
+            <div>
+              <input type="number" name="Age" id="age" placeholder="Age">
+            </div>
+          </div>
+          <div class="input-tab">
+            <div>
+              <label for="gender">Gender</label>
+            </div>
+            <div class="select-tab">
+              <select id="gender">
+                <option>Male</option>
+                <option>Female</option>
+                <option>Prefer not to say</option>
+              </select>
+            </div>
+          </div>
+          <div class="input-tab">
+            <div>
+              <label>How likely is it that you would recommend our cafeteria to friends?</label>
+            </div>
+            <div class="input-tab">
+              <div>
+                <input type="radio" name="recommend" value="Yes" id="yes">
+                <label for="yes">Yes</label>
+              </div>
+              <div>
+                <input type="radio" name="recommend" value="No" id="no">
+                <label for="no">No</label>
+              </div>
+              <div>
+                <input type="radio" name="recommend" value="Maybe" id="maybe">
+                <label for="maybe">Maybe</label>
+              </div>
+            </div>
+          </div>
+          <div class="input-tab">
+            <div>
+              <label for="favorite">What do you like the most in the Cafeteria?</label>
+            </div>
+            <div>
+              <select id="favorite">
+                <option>Select an option</option>
+                <option>Pizza</option>
+                <option>Qabuli-palaw</option>
+                <option>Kebab</option>
+                <option>Manto-Aashak</option>
+              </select>
+            </div>
+          </div>
+          <div class="input-tab">
+            <div>
+              <label>Things that should be improved in the future? (check all that apply)</label>
+            </div>
+            <div>
+              <input type="checkbox" name="improvement" value="food taste" id="food-taste">
+              <label for="food-taste">Food taste</label>
+
+              <input type="checkbox" name="improvement" value="kitchen cleaning" id="kitchen-cleaning">
+              <label for="kitchen-cleaning">Kitchen cleaning</label>
+              <input type="checkbox" name="improvement" value="chef improvement" id="chef-improvement">
+              <label for="chef-improvement">Chef</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <div>
+              <label for="comments">Any suggestions?</label>
+            </div>
+            <textarea name="comment" id="comments" placeholder="Enter comments here..."></textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
+
+
+</body>
+</html>
+</body>
+</html>
