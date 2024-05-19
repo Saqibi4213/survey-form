@@ -6,15 +6,13 @@ body {
     background-color:rgb(5,173,162);
     color: black;
 }
-
 #title {
     background-color:rgb(5,173,162);
     color: black;
     text-align: center;
     width: 100%;
     margin: auto;
-}
-        
+}      
 #description {
     text-align: center;
 }
