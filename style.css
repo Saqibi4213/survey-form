@@ -1,64 +1,64 @@
-body {
-    font-family: Arial;
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
-    background-color:rgb(5,173,162);
-color: black;
-  }
+ body {
+  font-family: Arial;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  background-color:rgb(5,173,162);
+  color: black;
+}
   
-#title {
-    background-color:rgb(5,173,162);
-    color: black;
-    text-align: center;
-    width: 100%;
-    margin: auto;
-  }
+ #title {
+  background-color:rgb(5,173,162);
+  color: black;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
     
-#description {
-    text-align: center;
-  }
+ #description {
+  text-align: center;
+}
     
-#text {
-    text-align: center;
-    margin-top: 10px;
-  }
+ #text {
+  text-align: center;
+  margin-top: 10px;
+}
     
-.container {
-    width: 80%;
-    margin: auto;
-    background-color: rgb(204, 228, 228);
-    color: black;
-    padding: 15px;
-  }
+ .container {
+  width: 80%;
+  margin: auto;
+  background-color: rgb(204, 228, 228);
+  color: black;
+  padding: 15px;
+}
     
-#survey-form {
-    text-align: center;
-  }
+ #survey-form {
+  text-align: center;
+}
     
-.row-tab {
-    display: block;
-    padding-bottom: 5%;
-  }
+ .row-tab {
+  display: block;
+  padding-bottom: 5%;
+}
     
-.label-tab {
-    display: inline-block;
-    width: 44%;
-    vertical-align: top;
-    }
+ .label-tab {
+  display: inline-block;
+  width: 44%;
+  vertical-align: top;
+}
     
-.input-tab {
-    display: inline-block;
-    width: 54%;
-    text-align: left;
-  }
+ .input-tab {
+  display: inline-block;
+  width: 54%;
+  text-align: left;
+}
     
-.select-tab {
-    display: inline-block;
-    width: 54%;
-    text-align: left;
-  }
+ .select-tab {
+  display: inline-block;
+  width: 54%;
+  text-align: left;
+}
     
-#select-box {
-    padding: 5px 0;
-  }
+ #select-box {
+  padding: 5px 0;
+}
