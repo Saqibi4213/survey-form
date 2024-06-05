@@ -3,7 +3,7 @@
 ## Project Description 📝
 
 > this is simple survey form that is using html and css and this is for kitchen and about the food the cleaning part the food taste 
-and in that page you can fill about what should add remove and you can give suggestion through this form to kitchen online page 
+and in that page you can fill about what should add remove and you can give suggestion through this form to kitchen online page  
 
 
 ## Demo 📸
@@ -34,7 +34,7 @@ you can access to my project through git clone
 -git clone the HTTP or My SSH code link from the repository you wat to clone 
 
 ``` 
-# git clone
+#git clone
 ```
 
 ## Features ⭐
@@ -51,9 +51,11 @@ you can access to my project through git clone
 
 Mehria Saqibi 
  <br>
- Email: mosawermh@gmail.com
+ -Email: mosawermh@gmail.com
  <br>
- LinkedIn: [Mheria saqibi] https://www.linkedin.com/in/mheria-saqibi-a386a41a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+ -LinkedIn: [Mheria saqibi] https://www.linkedin.com/in/mheria-saqibi-a386a41a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+ <br />
+ -Website:  https://saqibi4213.github.io/survey-form/
 
 ## Contributing 🤝
 
