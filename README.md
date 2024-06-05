@@ -34,7 +34,7 @@ you can access to my project through git clone
 -git clone the HTTP or My SSH code link from the repository you wat to clone 
 
 ``` 
-# git clone
+#git clone
 ```
 
 ## Features ⭐
