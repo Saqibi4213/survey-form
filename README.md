@@ -3,7 +3,7 @@
 ## Project Description 📝
 
 > this is simple survey form that is using html and css and this is for kitchen and about the food the cleaning part the food taste 
-and in that page you can fill about what should add remove and you can give suggestion through this form to kitchen online page 
+and in that page you can fill about what should add remove and you can give suggestion through this form to kitchen online page  
 
 
 ## Demo 📸
